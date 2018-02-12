@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Contato</title>
+</head>
+<body>
+    <div>
+        <form action="http://localhost:3000/contato" method="POST">
+            <label>Nome:</label><br>
+            <input type="text" name="nome" required>
+            <hr>
+            <label>E-mail</label><br>
+            <input type="text" name="email" required>
+            <hr>
+            <label>Data de Nascimento</label><br>
+            <input type="text" name="nascimento" required>
+            <hr>
+            <label>Profissão</label><br>
+            <input type="text" name="profissao" required>
+            <hr>
+            <label>Empresa</label><br>
+            <input type="text" name="empresa" required>
+            <hr>
+            <label>Endereço:</label><br>
+            <label>Rua</label><br>
+            <input type="text" name="rua" required><br>
+            <label>Bairro</label><br>
+            <input type="text" name="bairro" required><br>
+            <label>Cidade</label><br>
+            <input type="text" name="cidade" required><br>
+            <label>Estado</label><br>
+            <input type="text" name="estado" required><br>
+            <label>Cep</label><br>
+            <input type="text" name="cep" required><br>
+            <hr>
+            <label>Deseja receber e-mails sobre nosso produto?</label>   
+            <input type="radio" name="aceita_emails">   
+            <label>SIM</label>   
+            <input type="radio" name="aceita_emails">   
+            <label>NÃO</label>   
+            <hr>    
+            <label>Comentário</label>
+            <textarea name="comentario" required></textarea>
+            <hr>
+            <button>Enviar</button>
+        </form>
+    </div>
+    <script src="assets/js/scripts.js"></script>
+</body>
+</html>
